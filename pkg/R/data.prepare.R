@@ -142,7 +142,7 @@ load.data <- function(chroms, bwPlus, bwMinus, step, transform = FALSE, bwMap = 
 #' @param bwDataSet a data frame with the following components:
 #' \describe{
 #' \item{read.len}{integer holding the read length of the PRO/GRO-seq dataset}
-#' \item{left.edge}{boolean indicating if the left edge of the read is the one being mapped}
+#' \item{left.edge}{boolean indicating if the left edge of the read is the one being mapped; usually TRUE for GRO-seq files, FALSE for PRO-seq files}
 #' \item{bw.plus}{path to the bigWig file containing the pile-up for the plus strand}
 #' \item{bw.minus}{path to the bigWig file containing the pile-up for the minus strand}
 #' \item{bw.map}{path to the bigWig file containing the mappability information}
