@@ -1,0 +1,14 @@
+Package: tunits
+Type: Package
+Title: GROseq Transcription Units
+Version: 0.1
+Date: 2013-01-20
+Author: Andre L. Martins
+Maintainer: Andre L. Martins <alm253@cornell.edu>
+Description: GROseq Transcription Units
+    Support code for decoding and analysis of ENCODE transcription using HMMs.
+Depends:
+    bigWig,
+    rqhmm
+License: BSD
+LazyLoad: Yes
